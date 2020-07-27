@@ -1,0 +1,22 @@
+.Projects > h2 { 
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+.ProjectCard-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .Projects > h2 { 
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+
+    .ProjectCard-wrapper { 
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
