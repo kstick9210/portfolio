@@ -15,7 +15,7 @@ export default function About() {
             <div>
                 Where to find me around the web:<br></br><br></br>
                 <a href="https://www.linkedin.com/in/kathleen-stickel/" target="_blank" rel="noopener noreferrer">
-                    <img src="https://i.imgur.com/5YPzVDK.png" className="social-icon" alt="LinkedIn Logo"></img>
+                    <img src="https://i.imgur.com/5YPzVDK.png" className="social-icon" id="li" alt="LinkedIn Logo"></img>
                 </a><br></br>
                 <a href="https://github.com/kstick9210" target="_blank" rel="noopener noreferrer">
                     <img src="https://i.imgur.com/3J01ITc.png" className="social-icon" alt="GitHub Logo"></img>

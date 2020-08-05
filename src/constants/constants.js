@@ -16,4 +16,6 @@ export const PROJECTS = [
     }
 ];
 
-export const SKILLS = ["React.js", "Express.js", "MongoDB", "Mongoose", "Node.js", "JavaScript", "Django", "Python", "jQuery", "HTML", "CSS"];
+export const TECH_SKILLS = ["React.js", "Express.js", "MongoDB", "Mongoose", "Node.js", "JavaScript", "Django", "Python", "jQuery", "HTML", "CSS"];
+
+// export const SOFT_SKILLS = [""]

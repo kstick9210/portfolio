@@ -1,6 +1,6 @@
 import React from 'react';
 import './Skills.css';
-import {SKILLS} from '../../constants/constants';
+import {TECH_SKILLS} from '../../constants/constants';
 
 export default function Skills() {
     return (
@@ -8,7 +8,7 @@ export default function Skills() {
             <h2>What I Can Do</h2>
             <hr></hr>
             <ul>
-            {SKILLS.map(skill => 
+            {TECH_SKILLS.map(skill => 
                 <li key={skill}>{skill}</li>
             )}
             </ul>
