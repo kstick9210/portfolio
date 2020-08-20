@@ -17,14 +17,6 @@
     display: flex;
 }
 
-/* .Header-overlay {
-    position: fixed;
-    background-color: rgba(145, 145, 145, 0.55);
-    width: 80vw;
-    height: 38vh;
-    z-index: 1;
-} */
-
 .Header > h3 {
     margin-top: -60px;
     padding: 3px;
