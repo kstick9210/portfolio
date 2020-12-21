@@ -1,5 +1,7 @@
 .Header {
     width: 100vw;
+    height: 430px;
+    overflow: hidden;
     display: flex;
     align-self: center;
     flex-direction: column;

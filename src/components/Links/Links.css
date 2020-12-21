@@ -1,0 +1,48 @@
+.Links {
+    display: flex;
+    align-self: center;
+    align-items: center;
+}
+
+.triangles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.up {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 60px 80px 60px;
+    border-color: transparent transparent whitesmoke transparent;
+    margin-bottom: 15px;
+}
+
+.down {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 80px 60px 0 60px;
+    border-color: white transparent transparent transparent;
+}
+
+.up p {
+    top: 35px;
+    width: 75px;
+    /* font-size: 1.2rem; */
+}
+
+.up p, .down p {
+    text-align: center;
+    left: -37px;
+    position: relative;
+    margin: 0px;
+    color: #AF875E;
+    font-size: 1.06rem;
+}
+
+.down p {
+    top: -77px;
+    width: 77px;
+}
