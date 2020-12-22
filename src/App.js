@@ -11,6 +11,7 @@ function App() {
     <main>
       <Header />
       <Links />
+      <div className="line"></div>
     </main>
   );
 }
