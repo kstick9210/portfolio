@@ -8,8 +8,7 @@
 .About > h2 { margin-bottom: 0; }
 
 .social-icon {
-    /* height: 27px; */
-    width: 100px;
+    height: 35px;
 }
 
 @media only screen and (min-width: 768px) {
