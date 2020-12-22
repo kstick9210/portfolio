@@ -17,6 +17,8 @@
 
     .ProjectCard-wrapper { 
         flex-flow: row wrap;
-        justify-content: space-around;
+        justify-content: center;
+        /* flex-direction: row; */
+        /* justify-content: space-around; */
     }
 }
