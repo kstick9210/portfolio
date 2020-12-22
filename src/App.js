@@ -12,6 +12,7 @@ function App() {
       <Header />
       <Links />
       <div className="line"></div>
+      <Projects />
     </main>
   );
 }

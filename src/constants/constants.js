@@ -1,11 +1,32 @@
+import cafe from "../assets/images/local-cafe.png";
+import trippinIcon from "../assets/images/trippin_icon.png";
+import chatIcon from "../assets/images/chat_icon.png";
+import satIcon from "../assets/images/satellite_icon.png";
+
 export const PROJECTS = [
     {
         name: "Locally Caffeinated",
         deployedURL: "https://locally-caffeinated.herokuapp.com/",
         ghURL: "https://github.com/kstick9210/locally-caffeinated",
-        description: "",
+        description: "Locally Caffeinated allows users to search for coffee shops and maintain lists of their favorite cafes.",
+        screenshot: cafe,
+        icon: "https://i.imgur.com/2yQv6fi.png?2"
+    },
+    {
+        name: "Satellite",
+        deployedURL: "https://github.com/kstick9210/satellite",
+        ghURL: "https://github.com/kstick9210/satellite",
+        description: "Satellite is a new CSS framework currently in development.",
         screenshot: "",
-        icon: ""
+        icon: satIcon
+    },
+    {
+        name: "Trippin'",
+        deployedURL: "https://trippin-cwd.herokuapp.com/",
+        ghURL: "https://github.com/Cinque-Web-Development/Trippin",
+        description: "Trippin is a full stack web application built with MongoDB, Express, React, and Node. Users can search for locations using the Google Maps API, view hotels and restaurants, and create trips.",
+        screenshot: "",
+        icon: trippinIcon
     },
     {
         name: "Collect the Cosmos",
@@ -15,6 +36,14 @@ export const PROJECTS = [
         screenshot: "https://i.imgur.com/KnsOttw.png",
         icon: "https://i.imgur.com/bZ1iAl7.jpg?1"
     },
+    {
+        name: "Cinque Chat",
+        deployedURL: "hhttps://cinque-chat.herokuapp.com/",
+        ghURL: "https://github.com/Cinque-Web-Development/cinque-chat",
+        description: "",
+        screenshot: "",
+        icon: chatIcon
+    }
 
 ];
 
