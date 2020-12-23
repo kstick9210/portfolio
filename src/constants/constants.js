@@ -1,4 +1,6 @@
-import cafe from "../assets/images/local-cafe.png";
+import cafe from "../assets/images/local-cafe.jpg";
+import trippin from "../assets/images/trippin.jpg";
+import cosmos from "../assets/images/cosmos.jpg";
 import trippinIcon from "../assets/images/trippin_icon.png";
 import chatIcon from "../assets/images/chat_icon.png";
 import satIcon from "../assets/images/satellite_icon.png";
@@ -25,7 +27,7 @@ export const PROJECTS = [
         deployedURL: "https://trippin-cwd.herokuapp.com/",
         ghURL: "https://github.com/Cinque-Web-Development/Trippin",
         description: "Trippin is a full stack web application built with MongoDB, Express, React, and Node. Users can search for locations using the Google Maps API, view hotels and restaurants, and create trips.",
-        screenshot: "",
+        screenshot: trippin,
         icon: trippinIcon
     },
     {
@@ -33,7 +35,7 @@ export const PROJECTS = [
         deployedURL: "http://cosmos.kathleenstickel.com/",
         ghURL: "https://github.com/kstick9210/collect-the-cosmos",
         description: "Collect the Cosmos is an application that allows users to search for and create collections of photos of stars, planets, and other extraordinary objects in the universe. This project utilizes the MERN stack and consumes the NASA Photo Library API.",
-        screenshot: "https://i.imgur.com/KnsOttw.png",
+        screenshot: cosmos,
         icon: "https://i.imgur.com/bZ1iAl7.jpg?1"
     },
     {

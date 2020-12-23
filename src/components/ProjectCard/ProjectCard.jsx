@@ -4,8 +4,8 @@ import './ProjectCard.css';
 export default function ProjectCard({name, icon, screenshot, description, deployedURL, ghURL}) {
     return (
         <div className="ProjectCard">
-            <h2 className="project-title">{name}<img src={icon} className="Project-icon" alt="Project Icon"></img></h2>
-            <div className="ProjectCard-image">   
+            <h2 className="project-title">{name} <img src={icon} className="Project-icon" alt="Project Icon"></img></h2>
+            <div className="project-screenshot-wrapper">   
                 <img 
                     src={screenshot} 
                     alt="project screenshot"

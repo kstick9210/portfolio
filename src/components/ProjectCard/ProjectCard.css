@@ -10,13 +10,12 @@
 }
 
 .project-title {
-    z-index: 1;
+    margin-bottom: 35px;
 }
 
-.ProjectCard-image {
+.project-screenshot-wrapper {
     width: 150px;
     height: 150px;
-    /* margin: 55px; */
     border: 2px solid grey;
     -ms-transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
@@ -25,8 +24,9 @@
 }
 
 .project-screenshot {
-    width: 220px;
-    margin-left: -45px;
+    width: 300px;
+    margin-left: -70px;
+    margin-top: -20px;
     -ms-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
