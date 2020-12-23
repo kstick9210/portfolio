@@ -3,14 +3,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border: 2px solid white; */
     margin-bottom: 30px;
     padding-bottom: 10px;
     color: whitesmoke;
 }
 
 .project-title {
-    margin-bottom: 35px;
+    margin-bottom: 45px;
 }
 
 .project-screenshot-wrapper {
@@ -34,9 +33,103 @@
 
 .Project-icon {
     height: 25px;
+    border-radius: 50%;
 }
 
-.Project-description {
+.project-overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: -186px 0 0 0;
+    padding: 0;
+    z-index: 1;
+    opacity: 0;
+    -webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+}
+
+.project-overlay:hover {
+    opacity: 100%;
+}
+
+.top-overlay {
+    width: 0px;
+    height: 0px;
+    margin: 0;
+    padding: 0;
+    border-style: solid;
+    border-width: 0 109px 109px 109px;
+    border-color: transparent transparent rgba(255, 255, 255, 0.8) transparent;
+}
+
+.bottom-overlay {
+    width: 0px;
+    height: 0px;
+    margin: 0;
+    padding: 0;
+    border-style: solid;
+    border-width: 109px 109px 0 109px;
+    border-color: rgba(255, 255, 255, 0.8) transparent transparent transparent;
+}
+
+.top-overlay p {
+    top: 75px;
+    width: 100px;
+}
+
+.top-overlay p, .bottom-overlay p {
+    text-align: center;
+    left: -50px;
+    position: relative;
+    margin: 0px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #AF875E;
+    font-weight: bolder;
+}
+
+/* .project-link:hover {
+    color: #262262;
+} */
+
+.bottom-overlay p {
+    top: -100px;
+    width: 100px;
+}
+
+/*! hover code starts */
+
+/* .ProjectCard:after {
+    content: '';
+    width: 0; 
+    height: 150px;
+    margin: -150px 0 0 0;
+    background: rgba(145, 145, 145, 0.4);
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transition: width .3s ease, content .3s ease-in;
+    -moz-transition: width .3s ease, content .3s ease-in;
+    -o-transition: width .3s ease, content .3s ease-in;
+    transition: width .3s ease, content .3s ease-in;
+}
+
+.ProjectCard:hover:after {
+    content: 'details';
+    text-align: center;
+    width: 150px;
+    left: 0;
+    background: rgba(187, 187, 187, 0.4);
+} */
+
+/*! hover code ends */
+
+/* .Project-description {
     text-align: center;
     padding: 5px;
 }
@@ -57,4 +150,4 @@
         font-size: 18px;
         padding: 10px;
     }
-}
+} */

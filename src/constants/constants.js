@@ -1,8 +1,9 @@
 import cafe from "../assets/images/local-cafe.jpg";
 import trippin from "../assets/images/trippin.jpg";
-import cosmos from "../assets/images/cosmos.jpg";
 import trippinIcon from "../assets/images/trippin_icon.png";
-import chatIcon from "../assets/images/chat_icon.png";
+import cosmos from "../assets/images/cosmos.jpg";
+import cinqueIcon from "../assets/images/cinque_icon.png";
+import cinque from "../assets/images/cinque.png";
 import satIcon from "../assets/images/satellite_icon.png";
 
 export const PROJECTS = [
@@ -39,12 +40,12 @@ export const PROJECTS = [
         icon: "https://i.imgur.com/bZ1iAl7.jpg?1"
     },
     {
-        name: "Cinque Chat",
-        deployedURL: "hhttps://cinque-chat.herokuapp.com/",
-        ghURL: "https://github.com/Cinque-Web-Development/cinque-chat",
+        name: "Cinque",
+        deployedURL: "#",
+        ghURL: "https://github.com/Cinque-Web-Development/cinque",
         description: "",
-        screenshot: "",
-        icon: chatIcon
+        screenshot: cinque,
+        icon: cinqueIcon
     }
 
 ];

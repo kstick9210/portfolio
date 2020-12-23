@@ -5,7 +5,6 @@ import {PROJECTS} from '../../constants/constants';
 
 export default function Projects() {
     return (
-        <div className="Projects">
             <div className="ProjectCard-wrapper">
                 {PROJECTS.map((project, idx) => 
                     <ProjectCard 
@@ -20,6 +19,5 @@ export default function Projects() {
 
                 )}
             </div>
-        </div>
     )
 }

@@ -12,6 +12,10 @@ export default function ProjectCard({name, icon, screenshot, description, deploy
                     className="project-screenshot"
                 />
             </div>
+            <div className="project-overlay">
+                <div className="top-overlay"><p><a className="project-link" href={deployedURL} target="_blank">See the app</a></p></div>
+                <div className="bottom-overlay"><p><a className="project-link" href={ghURL} target="_blank">See the code</a></p></div>
+            </div>
             {/* <p className="Project-description">{description}</p>
             <div className="Project-links">
                 <a href={deployedURL} target="_blank" rel="noopener noreferrer">
