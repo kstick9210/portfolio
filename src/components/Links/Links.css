@@ -4,10 +4,26 @@
     align-items: center;
 }
 
+.social {
+    color: whitesmoke;
+    -webkit-transition: color .3s ease-in-out;
+    -moz-transition: color .3s ease-in-out;
+    -o-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out;
+}
+
+.social:hover {
+    color: #AF875E;
+}
+
 .triangles {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.triangles:hover, .triangles:focus {
+    color: whitesmoke;
 }
 
 .up {
@@ -19,6 +35,17 @@
     margin-bottom: 15px;
 }
 
+.up:hover, .up:focus {
+    border-color: transparent transparent #AF875E transparent;
+}
+
+.up, .down {
+    -webkit-transition: border .4s ease-in-out;
+    -moz-transition: border .4s ease-in-out;
+    -o-transition: border .4s ease-in-out;
+    transition: border .4s ease-in-out;
+}
+
 .down {
     width: 0px;
     height: 0px;
@@ -27,9 +54,17 @@
     border-color: white transparent transparent transparent;
 }
 
+.down:hover, .down:focus {
+    border-color: #AF875E transparent transparent transparent;
+}
+
 .up p {
     top: 35px;
     width: 75px;
+}
+
+.up:hover p, .down:hover p {
+    color: whitesmoke;
 }
 
 .up p, .down p {
@@ -39,6 +74,10 @@
     margin: 0px;
     color: #AF875E;
     font-size: 1.06rem;
+    -webkit-transition: color .4s ease-in-out;
+    -moz-transition: color .4s ease-in-out;
+    -o-transition: color .4s ease-in-out;
+    transition: color .4s ease-in-out;
 }
 
 .down p {

@@ -10,6 +10,19 @@
 
 .project-title {
     margin-bottom: 45px;
+    -webkit-transition: color .2s ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+}
+
+.project-title:hover {
+    color: #AF875E;
+}
+
+.project-title a {
+    color: inherit;
+    text-decoration: none;
 }
 
 .project-screenshot-wrapper {
@@ -93,61 +106,11 @@
     font-weight: bolder;
 }
 
-/* .project-link:hover {
+.project-link:hover {
     color: #262262;
-} */
+}
 
 .bottom-overlay p {
     top: -100px;
     width: 100px;
 }
-
-/*! hover code starts */
-
-/* .ProjectCard:after {
-    content: '';
-    width: 0; 
-    height: 150px;
-    margin: -150px 0 0 0;
-    background: rgba(145, 145, 145, 0.4);
-    -ms-transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    -webkit-transition: width .3s ease, content .3s ease-in;
-    -moz-transition: width .3s ease, content .3s ease-in;
-    -o-transition: width .3s ease, content .3s ease-in;
-    transition: width .3s ease, content .3s ease-in;
-}
-
-.ProjectCard:hover:after {
-    content: 'details';
-    text-align: center;
-    width: 150px;
-    left: 0;
-    background: rgba(187, 187, 187, 0.4);
-} */
-
-/*! hover code ends */
-
-/* .Project-description {
-    text-align: center;
-    padding: 5px;
-}
-
-.Project-links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.Project-links > a {
-    color: white;
-    text-decoration: none;
-}
-
-@media only screen and (min-width: 768px) {
-    .Project-description {
-        font-size: 18px;
-        padding: 10px;
-    }
-} */
