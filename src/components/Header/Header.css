@@ -1,42 +1,9 @@
 .Header {
-    width: 90vw;
-    height: 35vh;
+    width: 100vw;
+    height: 430px;
+    overflow: hidden;
     display: flex;
     align-self: center;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-}
-
-.Header-image {
-    max-width: 450px;
-    opacity: 0.7;
-}
-
-.Header-image-wrapper {
-    display: flex;
-}
-
-.Header > h3 {
-    margin-top: -60px;
-    padding: 3px;
-    background-color: rgba(145, 145, 145, 0.8);
-    z-index: 2;
-}
-
-@media only screen and (min-width: 768px) {
-    .Header { height: auto; }
-    .Header-image { max-width: 750px; }
-    .Header > h3 { 
-        font-size: 40px;
-        margin-top: -130px;
-    }
-}
-
-@media only screen and (min-width: 1000px) {
-    .Header-image { max-width: 1000px; }
-    .Header > h3 {
-        font-size: 50px;
-        margin-top: -140px;
-    }
 }

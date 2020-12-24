@@ -1,6 +1,12 @@
 main {
   display: flex;
   flex-direction: column;
-  color: rgba(255, 255, 255, 0.9);
-  padding: 0 20px;
+  align-items: center;
+}
+
+.line {
+  width: 95vw;
+  height: 1px;
+  background-color: #AF875E;
+  margin: 15px 0;
 }

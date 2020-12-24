@@ -1,30 +1,30 @@
 import React from 'react';
 import './ProjectCard.css';
 
-export default function ProjectCard(props) {
+export default function ProjectCard({name, icon, screenshot, description, deployedURL, ghURL}) {
     return (
         <div className="ProjectCard">
-            <h3>{props.name} <img src={props.icon} className="Project-icon" alt="Project Icon"></img></h3>
-            <div
-                className="ProjectCard-image"
-                style={{ 
-                    backgroundImage: `url(${props.screenshot})`,
-                    backgroundSize: "contain",
-                    backgroundRepeat: "no-repeat",
-                    backgroundPosition: "center",
-                    height: 500,
-                    width: "inherit"
-                }}
-            >   
+            <div className="project-title">
+                <h2>
+                    <a href={deployedURL} target="_blank" rel="noopener noreferrer">
+                        {name}&nbsp;&nbsp;
+                        <img src={icon} className="Project-icon" alt="Project Icon" />
+                    </a>
+                </h2>
             </div>
-            <p className="Project-description">{props.description}</p>
-            <div className="Project-links">
-                <a href={props.deployedURL} target="_blank" rel="noopener noreferrer">
-                    Check Out the App <img src={props.icon} className="Project-icon" alt="Project Icon"></img>
-                </a><br></br>
-                <a href={props.ghURL} target="_blank" rel="noopener noreferrer">
-                    See the Project on GitHub <img src="https://i.imgur.com/71WSpc0.png" alt="GitHub Icon"></img>
-                </a><br></br>
+            <div className="project-screenshot-wrapper">   
+                <img 
+                    src={screenshot} 
+                    alt="project screenshot"
+                    className="project-screenshot"
+                />
+            </div>
+            <div className="project-overlay">
+                <div className="top-overlay"><p>{description}</p></div>
+                <div className="bottom-overlay">
+                    <p><a className="project-link" href={ghURL} target="_blank" rel="noopener noreferrer">See the code</a></p>
+                    <p><a className="project-link" href={deployedURL} target="_blank" rel="noopener noreferrer">See the app</a></p>
+                </div>
             </div>
         </div>
     )

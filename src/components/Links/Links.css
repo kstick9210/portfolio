@@ -1,0 +1,91 @@
+.Links {
+    display: flex;
+    align-self: center;
+    align-items: center;
+}
+
+.social {
+    color: whitesmoke;
+    -webkit-transition: color .3s ease-in-out;
+    -moz-transition: color .3s ease-in-out;
+    -o-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out;
+}
+
+.social:hover {
+    color: #AF875E;
+}
+
+.triangles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.triangles:hover, .triangles:focus {
+    color: whitesmoke;
+}
+
+.up {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 60px 80px 60px;
+    border-color: transparent transparent white transparent;
+    margin-bottom: 15px;
+}
+
+.up:hover, .up:focus {
+    border-color: transparent transparent #AF875E transparent;
+}
+
+.up, .down {
+    -webkit-transition: border .4s ease-in-out;
+    -moz-transition: border .4s ease-in-out;
+    -o-transition: border .4s ease-in-out;
+    transition: border .4s ease-in-out;
+}
+
+.down {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 80px 60px 0 60px;
+    border-color: white transparent transparent transparent;
+}
+
+.down:hover, .down:focus {
+    border-color: #AF875E transparent transparent transparent;
+}
+
+.up p {
+    top: 35px;
+    width: 75px;
+}
+
+.up p a, .down p a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.up:hover p, .down:hover p {
+    color: whitesmoke;
+}
+
+.up p, .down p {
+    text-align: center;
+    left: -37px;
+    position: relative;
+    margin: 0px;
+    color: #AF875E;
+    font-size: 1.06rem;
+    -webkit-transition: color .4s ease-in-out;
+    -moz-transition: color .4s ease-in-out;
+    -o-transition: color .4s ease-in-out;
+    transition: color .4s ease-in-out;
+}
+
+.down p {
+    top: -70px;
+    width: 77px;
+}

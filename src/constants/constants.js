@@ -1,21 +1,58 @@
-export const PROJECTS = [
-    {name: "NPS Visits Tracker",
-    deployedURL: "https://nps-visits.herokuapp.com/",
-    ghURL: "https://github.com/kstick9210/nps-visits",
-    description: "National Parks Visits Tracker is a place to keep track of which National Parks you have visted and the Junior Ranger badges you collect along the way. Technologies used include mongoDB/Mongoose, Express, Node.js, JavaScript, HTML/EJS, and CSS.",
-    screenshot: "https://i.imgur.com/BN7Be7q.png",
-    icon: "https://i.imgur.com/tri6tz7.png"
-    },
+import cafe from "../assets/images/local-cafe.jpg";
+import cafeIcon from "../assets/images/cafe_icon.png";
+import satellite from "../assets/images/satellite.png";
+import satIcon from "../assets/images/satellite_icon.png";
+import trippin from "../assets/images/trippin.jpg";
+import trippinIcon from "../assets/images/trippin_icon.png";
+import cosmos from "../assets/images/cosmos.jpg";
+import cosmosIcon from "../assets/images/cosmos_icon.jpg";
+import cinque from "../assets/images/cinque.png";
+import cinqueIcon from "../assets/images/cinque_icon.png";
 
-    {name: "Collect the Cosmos",
-    deployedURL: "https://collect-the-cosmos.herokuapp.com/",
-    ghURL: "https://github.com/kstick9210/collect-the-cosmos",
-    description: "Collect the Cosmos is an application that allows users to search for and create collections of photos of stars, planets, and other extraordinary objects in the universe. This project utilizes the MERN stack and consumes the NASA Photo Library API.",
-    screenshot: "https://i.imgur.com/KnsOttw.png",
-    icon: "https://i.imgur.com/bZ1iAl7.jpg?1"
+export const PROJECTS = [
+    {
+        name: "Locally Caffeinated",
+        deployedURL: "https://locally-caffeinated.herokuapp.com/",
+        ghURL: "https://github.com/kstick9210/locally-caffeinated",
+        description: "Find your new favorite coffee shop",
+        screenshot: cafe,
+        icon: cafeIcon
+    },
+    {
+        name: "Satellite",
+        deployedURL: "https://github.com/kstick9210/satellite",
+        ghURL: "https://github.com/kstick9210/satellite",
+        description: "A new CSS framework currently in development",
+        screenshot: satellite,
+        icon: satIcon
+    },
+    {
+        name: "Trippin'",
+        deployedURL: "https://trippin-cwd.herokuapp.com/",
+        ghURL: "https://github.com/Cinque-Web-Development/Trippin",
+        description: "Plan your next trip",
+        screenshot: trippin,
+        icon: trippinIcon
+    },
+    {
+        name: "Collect the Cosmos",
+        deployedURL: "http://cosmos.kathleenstickel.com/",
+        ghURL: "https://github.com/kstick9210/collect-the-cosmos",
+        description: "Explore the universe with NASA",
+        screenshot: cosmos,
+        icon: cosmosIcon
+    },
+    {
+        name: "Cinque",
+        deployedURL: "http://cinque.cinquewd.com/",
+        ghURL: "https://github.com/Cinque-Web-Development/cinque",
+        description: "Start your day with Cinque",
+        screenshot: cinque,
+        icon: cinqueIcon
     }
+
 ];
 
-export const TECH_SKILLS = ["React.js", "Express.js", "MongoDB", "Mongoose", "Node.js", "JavaScript", "Django", "Python", "jQuery", "HTML", "CSS"];
+export const TECH_SKILLS = ["React, ", "Express, ", "MongoDB/Mongoose, ", "Node, ", "JavaScript, ", "Django, ", "Python, ", "HTML, ", "CSS"];
 
 // export const SOFT_SKILLS = [""]
