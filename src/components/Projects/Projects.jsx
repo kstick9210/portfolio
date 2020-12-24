@@ -5,7 +5,7 @@ import {PROJECTS} from '../../constants/constants';
 
 export default function Projects() {
     return (
-            <div className="ProjectCard-wrapper">
+            <div className="ProjectCard-wrapper" id="projects">
                 {PROJECTS.map((project, idx) => 
                     <ProjectCard 
                         key={idx}

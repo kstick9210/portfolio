@@ -10,8 +10,8 @@ export default function Links() {
             </a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <div className="triangles">
-                <div className="up"><p>About<br />Me</p></div>
-                <div className="down"><p>My Projects</p></div>
+                <div className="up"><p><Link to="/about">About<br />Me</Link></p></div>
+                <div className="down"><p><a href="#projects">Projects</a></p></div>
             </div>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="https://www.linkedin.com/in/kathleen-stickel/" target="_blank" rel="noopener noreferrer">

@@ -1,0 +1,71 @@
+.About {
+    text-align: center;
+    align-self: center;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.home-link {
+    color: inherit;
+    text-decoration: none;
+    -webkit-transition: color .3s ease-in-out;
+    -moz-transition: color .3s ease-in-out;
+    -o-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out;
+}
+
+.home-link:hover {
+    color: #AF875E;
+}
+
+.about-wrapper {
+    margin-top: -120px;
+    width: 80vw;
+}
+
+#about-line {
+    width: 100%;
+}
+
+.About h1 { margin-bottom: 0; }
+
+.about-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.long-a {
+    font-weight: 200;
+}
+
+#cwd-link {
+    display: flex;
+    align-items: center;
+}
+
+.cwd-logo {
+    height: 41px;
+    -webkit-transition: background-color .3s ease-in-out;
+    -moz-transition: background-color .3s ease-in-out;
+    -o-transition: background-color .3s ease-in-out;
+    transition: background-color .3s ease-in-out;
+}
+
+.cwd-logo:hover, .cwd-logo:focus {
+    background-color: #AF875E;
+}
+
+@media only screen and (min-width: 768px) {
+    .About { 
+        font-size: 20px;
+    }
+    .About > h2 { font-size: 32px; }
+}
+
+@media only screen and (min-width: 1000px) {
+    .about-wrapper { width: 800px }
+}

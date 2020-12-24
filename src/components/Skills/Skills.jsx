@@ -1,17 +1,11 @@
-import React from 'react';
-import './Skills.css';
-import {TECH_SKILLS} from '../../constants/constants';
+import React from "react";
+import "./Skills.css";
 
 export default function Skills() {
     return (
         <div className="Skills">
-            <h2>What I Can Do</h2>
-            <hr></hr>
-            <ul>
-            {TECH_SKILLS.map(skill => 
-                <li key={skill}>{skill}</li>
-            )}
-            </ul>
+            <h3>My technical skills include:</h3>
+            <p>React, Express, MongoDB/Mongoose, Node, JavaScript, Django, Python, HTML, and CSS</p>
         </div>
     )
 }

@@ -6,7 +6,7 @@ export default function ProjectCard({name, icon, screenshot, description, deploy
         <div className="ProjectCard">
             <div className="project-title">
                 <h2>
-                    <a href={deployedURL} target="_blank">
+                    <a href={deployedURL} target="_blank" rel="noopener noreferrer">
                         {name}&nbsp;&nbsp;
                         <img src={icon} className="Project-icon" alt="Project Icon" />
                     </a>
@@ -20,8 +20,11 @@ export default function ProjectCard({name, icon, screenshot, description, deploy
                 />
             </div>
             <div className="project-overlay">
-                <div className="top-overlay"><p><a className="project-link" href={deployedURL} target="_blank">See the app</a></p></div>
-                <div className="bottom-overlay"><p><a className="project-link" href={ghURL} target="_blank">See the code</a></p></div>
+                <div className="top-overlay"><p>{description}</p></div>
+                <div className="bottom-overlay">
+                    <p><a className="project-link" href={ghURL} target="_blank" rel="noopener noreferrer">See the code</a></p>
+                    <p><a className="project-link" href={deployedURL} target="_blank" rel="noopener noreferrer">See the app</a></p>
+                </div>
             </div>
         </div>
     )

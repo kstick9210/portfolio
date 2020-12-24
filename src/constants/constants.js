@@ -14,7 +14,7 @@ export const PROJECTS = [
         name: "Locally Caffeinated",
         deployedURL: "https://locally-caffeinated.herokuapp.com/",
         ghURL: "https://github.com/kstick9210/locally-caffeinated",
-        description: "Locally Caffeinated allows users to search for coffee shops and maintain lists of their favorite cafes.",
+        description: "Find your new favorite coffee shop",
         screenshot: cafe,
         icon: cafeIcon
     },
@@ -22,7 +22,7 @@ export const PROJECTS = [
         name: "Satellite",
         deployedURL: "https://github.com/kstick9210/satellite",
         ghURL: "https://github.com/kstick9210/satellite",
-        description: "Satellite is a new CSS framework currently in development.",
+        description: "A new CSS framework currently in development",
         screenshot: satellite,
         icon: satIcon
     },
@@ -30,7 +30,7 @@ export const PROJECTS = [
         name: "Trippin'",
         deployedURL: "https://trippin-cwd.herokuapp.com/",
         ghURL: "https://github.com/Cinque-Web-Development/Trippin",
-        description: "Trippin is a full stack web application built with MongoDB, Express, React, and Node. Users can search for locations using the Google Maps API, view hotels and restaurants, and create trips.",
+        description: "Plan your next trip",
         screenshot: trippin,
         icon: trippinIcon
     },
@@ -38,21 +38,21 @@ export const PROJECTS = [
         name: "Collect the Cosmos",
         deployedURL: "http://cosmos.kathleenstickel.com/",
         ghURL: "https://github.com/kstick9210/collect-the-cosmos",
-        description: "Collect the Cosmos is an application that allows users to search for and create collections of photos of stars, planets, and other extraordinary objects in the universe. This project utilizes the MERN stack and consumes the NASA Photo Library API.",
+        description: "Explore the universe with NASA",
         screenshot: cosmos,
         icon: cosmosIcon
     },
     {
         name: "Cinque",
-        deployedURL: "#",
+        deployedURL: "http://cinque.cinquewd.com/",
         ghURL: "https://github.com/Cinque-Web-Development/cinque",
-        description: "",
+        description: "Start your day with Cinque",
         screenshot: cinque,
         icon: cinqueIcon
     }
 
 ];
 
-export const TECH_SKILLS = ["React", "Express", "MongoDB/Mongoose", "Node", "JavaScript", "Django", "Python", "jQuery", "HTML", "CSS"];
+export const TECH_SKILLS = ["React, ", "Express, ", "MongoDB/Mongoose, ", "Node, ", "JavaScript, ", "Django, ", "Python, ", "HTML, ", "CSS"];
 
 // export const SOFT_SKILLS = [""]
