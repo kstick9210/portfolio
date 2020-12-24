@@ -1,0 +1,19 @@
+.Footer {
+    color: whitesmoke;
+    width: 98vw;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Footer h1 {
+    font-size: 0.9rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .Footer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

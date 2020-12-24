@@ -5,8 +5,8 @@ import {Route, Switch} from "react-router-dom";
 import Header from './components/Header/Header';
 import Links from "./components/Links/Links";
 import About from "./pages/About/About";
-import Projects from './components/Projects/Projects';
-import Skills from './components/Skills/Skills';
+import Projects from "./components/Projects/Projects";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -28,6 +28,7 @@ function App() {
         }></Route>
 
       </Switch>
+      <Footer />
     </main>
   );
 }
