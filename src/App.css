@@ -4,6 +4,14 @@ main {
   align-items: center;
 }
 
+.home-blurb {
+  color: whitesmoke;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: -30px;
+  margin-bottom: 25px;
+}
+
 .line {
   width: 95vw;
   height: 1px;

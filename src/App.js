@@ -16,6 +16,11 @@ function App() {
         <Route exact path="/" render={() =>
           <>
             <Header />
+            <p className="home-blurb">
+              Full stack dev specializing in React apps.<br />
+              Former project manager for the feds.<br />
+              I can fix your CSS.
+            </p>
             <Links />
             <div className="line"></div>
             <Projects />
